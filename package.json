@@ -21,6 +21,8 @@
     "@types/react-dom": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
+    "@unocss/preset-uno": "^0.48.3",
+    "@unocss/vite": "^0.48.3",
     "@vitejs/plugin-react": "^3.0.0",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.2",
     "typescript": "^4.9.3",
+    "unocss": "^0.48.3",
     "vite": "^4.0.0"
   }
 }
