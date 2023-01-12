@@ -2,7 +2,6 @@ import { defineConfig, type PluginOption } from 'vite';
 import react from '@vitejs/plugin-react';
 // css
 import Unocss from 'unocss/vite';
-import presetUno from '@unocss/preset-uno';
 // icon
 import Icons from 'unplugin-icons/vite';
 import IconsResolver from 'unplugin-icons/resolver';
@@ -25,7 +24,7 @@ export default defineConfig({
   plugins: [
     react(),
     Inspect(),
-    Unocss({ presets: [presetUno()] }),
+    Unocss(),
     AutoImport({
       dts: 'src/types/auto-imports.d.ts',
       eslintrc: {
