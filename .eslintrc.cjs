@@ -15,6 +15,11 @@ module.exports = {
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -29,8 +34,8 @@ module.exports = {
     'react/jsx-props-no-spreading': ['warn'],
     'react/no-unescaped-entities': ['off'],
     'react/jsx-no-undef': ['off'],
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': ['error'],
+    'react-hooks/exhaustive-deps': ['warn'],
     'prettier/prettier': ['warn'],
   },
 };
