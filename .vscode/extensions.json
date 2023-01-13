@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "antfu.unocss",
+    "antfu.iconify",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "PKief.material-icon-theme",
+    "oderwat.indent-rainbow"
+  ]
+}
