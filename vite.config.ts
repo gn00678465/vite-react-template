@@ -18,6 +18,8 @@ import { visualizer } from 'rollup-plugin-visualizer';
 import { VitePWA } from 'vite-plugin-pwa';
 // html
 import { createHtmlPlugin } from 'vite-plugin-html';
+// typecheck
+import checker from 'vite-plugin-checker';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -71,6 +73,7 @@ export default defineConfig({
         },
       },
     }),
+    checker({ typescript: true }),
   ],
   server: {
     host: true,
