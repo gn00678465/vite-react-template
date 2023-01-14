@@ -19,6 +19,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-react: ^7.32.0
   eslint-plugin-react-hooks: ^4.6.0
+  husky: ^8.0.0
   jsdom: ^21.0.0
   prettier: ^2.8.2
   react: ^18.2.0
@@ -59,6 +60,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_iu5s7nk6dw7o3tajefwfiqfmge
   eslint-plugin-react: 7.32.0_eslint@8.31.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
+  husky: 8.0.3
   jsdom: 21.0.0
   prettier: 2.8.2
   rollup-plugin-visualizer: 5.9.0
@@ -3828,6 +3830,12 @@ packages:
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
+    dev: true
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /iconv-lite/0.6.3:
