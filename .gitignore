@@ -13,6 +13,9 @@ dist-ssr
 *.local
 certs
 coverage
+src/types/components.d.ts
+src/types/auto-imports.d.ts
+dev-dist
 
 # Editor directories and files
 .vscode/*

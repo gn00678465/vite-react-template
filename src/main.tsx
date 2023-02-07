@@ -4,9 +4,12 @@ import App from './App';
 import '@unocss/reset/tailwind.css';
 import 'virtual:uno.css';
 import '@purge-icons/generated';
+import { ChakraProvider } from '@chakra-ui/react';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
   </React.StrictMode>,
 );

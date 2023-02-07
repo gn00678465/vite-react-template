@@ -48,9 +48,7 @@ export default defineConfig({
     PurgeIcons({
       content: ['**/*.html', '**/*.js', '**/*.tsx'],
     }),
-    mkcert({
-      mkcertPath: './certs',
-    }),
+    mkcert(),
     visualizer({
       open: true,
       gzipSize: true,
